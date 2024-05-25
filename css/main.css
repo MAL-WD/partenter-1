@@ -1,0 +1,177 @@
+:root{
+    --white:#FEFAF6;
+    --black:#111111;
+    --beige:#fff5e8;
+}
+.navbar{
+    margin-inline:40px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar a{
+    background-color: transparent !important;
+    color: var(--white) !important;
+    
+}
+.sign  a{
+    /* background-color: var(--beige) !important; */
+    color: var(--black) !important;
+    
+}
+.navbar .SignUp{
+    border: 1px solid var(--white);
+    padding: 10px 25px ;
+    border-radius: 100vh;
+    display: block;
+    width: fit-content;
+    background-color: transparent;
+}
+.hero-header{
+    position: relative;
+    color: var(--black);
+    height: 120vh;
+    /* background-color: #12182a;
+    background-color: #DAC0A3;
+    background-color: #5f6c80; */
+    
+    /* background: rgb(17,22,40); */
+/* background: linear-gradient(124deg, rgba(17,22,40,1) 17%, rgba(24,53,78,1) 38%, rgba(17,22,40,1) 56%, rgba(19,26,45,1) 75%, rgba(44,71,111,1) 100%); */
+background: rgb(17,22,40);
+background: linear-gradient(124deg, rgba(17,22,40,1) 17%, rgba(24,53,78,1) 38%, rgba(17,22,40,1) 59%, rgba(19,26,45,1) 75%, rgba(42,70,112,1) 100%);
+}
+/* .hero-header .content{
+    flex-basis: 55% !important;
+}
+.hero-header .image{
+    flex: 1 0 45% !important;
+} */
+.hero-header h1{
+    /* font-family: "NewhouseDTPro-Regular"; */
+    font-size: 110px;
+    line-height: 1;
+    font-weight: 500;
+    color: var(--white);
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 3rem;
+}
+.hero-header p{
+    color: var(--white);
+    opacity: 90%;
+
+    max-width: 800px;
+    margin-inline: auto;
+}
+.hero-header button{
+    color: var(--black);
+    border: none;
+    background-color: var(--white) !important ;
+    border-radius: 100vh;
+    padding: 12px 40px; 
+    margin-top: 2.5rem;
+    font-weight: 700;
+}
+.hero-header .image{
+    align-self: flex-end;
+}
+.hero-header .image img{
+    width: 400px !important;
+    margin-left: auto;
+    height: 450px !important;
+}
+.hero-header .profile img{
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: fill;
+
+    height: 40px;
+    border-radius: 100vh;
+}
+.main-title{
+    font-weight: 600;
+    font-size: 2rem;
+}
+spline-viewer{
+    position: absolute;
+    left: -25%;
+    bottom: -25%;
+    width: 150vw;
+}
+.about{
+    /* background-color: var(--beige); */
+    color: var(--black) !important;
+}
+.about .row{
+    /* gap: 1rem; */
+}
+.about img{
+    border-radius: 30px;
+}
+.about .review{
+    margin-block: 3rem !important;
+    padding-top: 2rem;
+}
+.about a,.btn{
+    border-radius: 100vh !important;
+}
+/* form content */
+.formContent h1{
+    font-size: 80px;
+    margin-bottom: 3rem;
+}
+.formContent .formGroup{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.formContent .inputField {
+    display: grid;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.formContent .inputField label{
+    font-weight: 500;
+    font-size: 18px;
+    color: #111;
+}
+.formContent .inputField input {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    padding-bottom: 10px;
+}
+.formContent .inputField input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #111;
+}
+.formContent .flex{
+    margin-top: 1rem;
+    width: 100%;
+    align-items: center ;
+    justify-content: space-between;
+}
+.formContent .flex button{
+    color: var(--white);
+    padding: 10px 30px;
+    border-radius: 100vh;
+    border: none;
+    background-color: var(--dark-blue);
+}
+.flex{
+    display: flex;
+}
+.text-white{
+    color: var(--white) !important;
+}
+.formGroup button a{
+    color: var(--white) !important;
+}
+footer{
+    background-color: var(--beige) !important;
+    color: var(--black) !important;
+}
+footer a{
+    color: var(--black) !important;
+
+}
